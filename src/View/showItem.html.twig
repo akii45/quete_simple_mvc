@@ -1,0 +1,9 @@
+{% extends 'layout.html.twig' %}
+{% block title %}Quete MVC {% endblock%}
+{% block content %}
+    <h1>Item {{ item.title }}</h1>
+    <ul>
+        <li>Id : {{ item.id }}</li>
+    </ul>
+    <a href='/item'>Back to list</a>
+{% endblock %}
